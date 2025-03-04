@@ -9,3 +9,7 @@ document.querySelector(".projects").onmousemove = e => {
     card.style.setProperty("--mouse-y", `${y}px`);
   };
 }
+
+function toClick(link) {
+  window.location.href = link;
+}

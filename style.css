@@ -8,6 +8,9 @@ body {
 	color: white;
 	margin: 0;
 }
+a {
+	color: lightblue;
+}
 
 /* ---------- Nav ---------- */
 
@@ -55,7 +58,7 @@ nav div {
 	font-size: 20px;
 	background: rgb(0, 0, 0);
 	width: 100%;
-	background-image: url(Images/homePic.png);
+	background-image: url(/Images/homePic.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -239,6 +242,7 @@ h2 {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	cursor: pointer;
 }
 
 .card:hover::before,
@@ -418,13 +422,13 @@ h2 {
 }
 
 .card img {
-	width: 9em;
-}
-
-.ja {
 	width: 19em !important;
 	height: 10em;
+	border-radius: 10px;
+	object-fit:cover
 }
+
+
 
 .card a, .link{
 	font-size: 10px;
@@ -448,11 +452,6 @@ h2 {
 	font-size: 13px;
 	margin-bottom: 20px;
 	color: rgb(255, 255, 255);
-}
-
-.instruction a {
-	color: rgb(170, 234, 255);
-	font-weight: bold;
 }
 
 /* Footer */
