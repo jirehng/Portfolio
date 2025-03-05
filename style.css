@@ -58,7 +58,7 @@ nav div {
 	font-size: 20px;
 	background: rgb(0, 0, 0);
 	width: 100%;
-	background-image: url(/Images/homePic.png);
+	background-image: url(Images/homePic.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -213,8 +213,6 @@ h2 {
 	text-align: left;
 }
 
-
-
 /* !========= Projects ========== */
 
 :root {
@@ -262,8 +260,6 @@ h2 {
 	transition: opacity 500ms;
 	width: 100%;
 }
-
-
 
 .card::after {
 	background: radial-gradient(
@@ -364,14 +360,12 @@ h2 {
 	z-index: 1;
 }
 
-
 .static::before {
 	background: radial-gradient(
-			800px circle at var(--mouse-x) var(--mouse-y),
-			rgba(41, 101, 241, 0.1),
-			rgba(239, 101, 42, 0.2) ,
-			rgba(239, 101, 42, 0.1)
-			
+		800px circle at var(--mouse-x) var(--mouse-y),
+		rgba(41, 101, 241, 0.1),
+		rgba(239, 101, 42, 0.2),
+		rgba(239, 101, 42, 0.1)
 	);
 	z-index: 3;
 }
@@ -384,7 +378,6 @@ h2 {
 	);
 	z-index: 1;
 }
-
 
 .card > .cardContent {
 	background-color: var(--card-color);
@@ -425,18 +418,16 @@ h2 {
 	width: 19em !important;
 	height: 10em;
 	border-radius: 10px;
-	object-fit:cover
+	object-fit: cover;
 }
 
-
-
-.card a, .link{
+.card a,
+.link {
 	font-size: 10px;
 	margin-top: 5px;
 	color: rgb(187, 221, 255);
 	z-index: 4;
 	position: relative;
-	
 }
 .projectDescription {
 	font-size: 12px;
@@ -444,8 +435,6 @@ h2 {
 
 .projectH2 {
 	margin-top: 4em;
-	
-	
 }
 .instruction {
 	text-align: center;
@@ -483,4 +472,3 @@ footer img {
 	align-items: center;
 	gap: 15px;
 }
-
