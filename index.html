@@ -4,7 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Jireh Ng</title>
-		<link rel="icon" href="" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +11,7 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="icon" href="Images/JN.png">
 	</head>
 	<body>
 		<nav>
@@ -26,7 +26,7 @@
 				</h1>
 				<p>
 					High school student experienced in web development, UI/UX design,
-					programming, and in the process of learining app development
+					general programming, and app development (learning in progress)
 				</p>
 			</div>
 		</section>
@@ -45,6 +45,7 @@
 				little portfolio about me! :)
 			</p>
 		</section>
+		<!-- TODO: Make this a carousel -->
 		<h2 class="skillHeading">Have Experience With...</h2>
 		<section class="skills">
 			<div class="html">
@@ -69,111 +70,37 @@
 			<div class="swift">
 				<img src="Images/swift.svg" alt="" />
 			</div>
+			<div class="figma">
+				<img src="Images/figma.png" alt="">
+			</div>
 		</section>
 		<h2 class="projectH2">Projects</h2>
 		<p class="instruction">
-			Links and repos can be found in my
 			<a href="https://github.com/jirehng" target="_blank">Github page</a>
-			<br />
-			Click on card to go to website or Github repo
 		</p>
+
+
+		<!-- TODO: Make a tab menu for web, app, and UI/UX projects -->
+		 <div id="tabMenu">
+			<button onclick="menuSelect('.all')" class="all menuButton selected">All</button>
+			<button onclick="menuSelect('.web')" class="web menuButton">Websites</button>
+			<button onclick="menuSelect('.uiux')" class="uiux menuButton">UI/UX Design</button>
+			<button onclick="menuSelect('.mobile')" class="mobile menuButton">iOS App</button>
+		 </div>
 		<section class="projects">
-			<div
-				class="card js"
-				onclick="location.href='https://jirehng.github.io/TheWeatherProject/';"
-			>
-				<div class="cardContent">
-					<img src="Images/weatherapp.png" alt="" />
-					<h3 class="projectTitle">The Weather Project</h3>
-					<p class="languages">HTML, CSS, Javascript</p>
-					<p class="projectDescription">
-						A dynamic weather website using Openweather API to show the local
-						current weather forecast for any city
-					</p>
-				</div>
-			</div>
-			<div
-				class="card reactjs"
-				onclick="location.href='https://github.com/jirehng/mini-todolist';"
-			>
-				<div class="cardContent">
-					<img src="Images/todolist.png" alt="" />
-					<h3 class="projectTitle">Mini Todo</h3>
-					<p class="languages">HTML, CSS, React.js</p>
-					<p class="projectDescription">
-						A simple todo-list application that allow user to add new task,
-						complete existing tasks, and delete unwanted tasks
-					</p>
-				</div>
-			</div>
-			<div
-				class="card cssC"
-				onclick="location.href='https://github.com/jirehng/Calculator';"
-			>
-				<div class="cardContent">
-					<img src="Images/calculator.png" alt="" />
-					<h3 class="projectTitle">Simple Calculator</h3>
-					<p class="languages">HTML, CSS, React.js</p>
-					<p class="projectDescription">
-						A simple calculator app with basic mathematical operations built
-						using React.js
-					</p>
-				</div>
-			</div>
-			<div
-				class="card htmlC"
-				onclick="location.href='https://github.com/jirehng/TicTacToe';"
-			>
-				<div class="cardContent">
-					<img src="Images/tictactoe.png" alt="" />
-					<h3 class="projectTitle">TicTacToe</h3>
-					<p class="languages">HTML, CSS, React.js</p>
-					<p class="projectDescription">A very simple TicTacToe game that uses logic and functions in React.js</p>
-				</div>
-			</div>
-			<div class="card javaC" onclick="location.href='';">
-				<div class="cardContent">
-					<img src="Images/juggernaut assault.png" alt="" class="ja" />
-					<h3 class="projectTitle">Juggernaut Assault</h3>
-					<p class="languages">Java, Java Graphics</p>
-					<p class="projectDescription">
-						A complex two-player tank game (inspired by Tank Stars) built using Java and Java Graphics for grade 11 computer science final project
-					</p>
-				</div>
-			</div>
-			<div
-				class="card reactjs"
-				onclick="location.href='https://github.com/jirehng/Memory-Card-Game';"
-			>
-				<div class="cardContent">
-					<img src="Images/memory-card-game.png" alt="" />
-					<h3 class="projectTitle">Memory Card Game</h3>
-					<p class="languages">HTML, CSS, Javascript</p>
-					<p class="projectDescription">
-						A fun little game to test user's memory where user must not pick the same card twice in the sea of cards
-					</p>
-				</div>
-			</div>
-			<div class="card static">
-				<div class="cardContent">
-					<img src="Images/website.svg" alt="" />
-					<h3 class="projectTitle">10+ Static Website</h3>
-					<p class="languages">HTML, CSS, Javascript</p>
-					<p class="projectDescription">
-						10+ static websites using HTML, CSS, and sometimes Javascript to practice front-end skill or for school projects
-					</p>
-				</div>
-			</div>
+			
 		</section>
 
-		<footer>
+		<footer class="footer">
 			<h1>Jireh Ng</h1>
 			<div class="media">
-				<p><img src="Images/gmail.svg" alt="" /> jirehyuchit@gmail.com</p>
+				<p><img src="Images/gmail.svg" alt="" /> jirehng123@gmail.com</p>
 				<p><img src="Images/github.svg" alt="" />jirehng</p>
 				<p><img src="Images/instagram.svg" alt="" /> jirehng123333</p>
 			</div>
 		</footer>
 	</body>
-	<script src="script.js"></script>
+	<script src="/projects.js"></script>
+	<script src="/script.js"></script>
+	
 </html>
