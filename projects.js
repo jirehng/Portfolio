@@ -54,7 +54,7 @@ const projects = [
 
   {
     title: "HSPrep (WIP)",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget conse",
+    description: "",
     images: "Images/WIP.jpg",
     languages: "HTMl, CSS, React.js",
     color: "reactjs",
