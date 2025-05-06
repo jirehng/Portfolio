@@ -74,9 +74,9 @@ nav div {
 	font-size: 20px;
 	background: rgb(0, 0, 0);
 	width: 100%;
-	background-image: url(Images/homePic.png);
+	background-image: url(Images/banner.png);
 	background-position: center;
-	background-size: cover;
+	background-size:cover;
 	background-repeat: no-repeat;
 	padding: 50px;
 }
