@@ -54,7 +54,7 @@ const projects = [
 
   {
     title: "HSPrep (WIP)",
-    description: "A centralize website where Ontario high school students can post and study other students' notes, past tests, and course materials",
+    description: "A centralize website where Ontario high school students can post and study useful academic resources",
     images: "Images/WIP.jpg",
     languages: "HTMl, CSS, React.js",
     color: "reactjs",
