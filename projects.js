@@ -43,7 +43,7 @@ const projects = [
   }, 
   {
     title: "Re:Wake (WIP)",
-    description: "An iOS alarm clock app that approaches alarm in a brand new way. Hence the name Re(imagine):Wake",
+    description: "An iOS alarm clock app that approaches alarm differently. Wake Up Softly, Rise Fully, Oversleep Unlikely",
     images: "Images/WIP.jpg",
     languages: "Swift, SwiftUI",
     color: "swiftC",
